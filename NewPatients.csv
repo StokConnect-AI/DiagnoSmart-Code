@@ -1,0 +1,9 @@
+patient_name,schizophrenia,anxiety,bipolar,eating,logistic_prediction,random_forest_prediction
+Jane,0.5,0.2,0.3,0.4,0,0
+Tuma,0.5,5.0,2.0,1.0,0,1
+Jane,0.5,2.0,3.0,5.0,1,1
+Tuma,10.0,10.0,10.0,10.0,0,1
+Siyabonga,5.0,10.0,15.0,20.0,0,1
+Sphiwe,0.2,0.1,0.3,0.0,1,0
+Sibongiseni,0.5,0.1,0.3,0.5,0,0
+Nkosi,1.0,1.0,1.0,1.0,0,0
