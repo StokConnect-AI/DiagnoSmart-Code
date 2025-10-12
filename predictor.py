@@ -1,3 +1,5 @@
+#We'll be using this code to assess a patient's mental health by gathering data on disorders and using 2 different prediction models for the likelihood of a disorder. Furthermore it records the results and includes checks to ensure that the data is complete. 
+
 import pandas as pd
 from config import FEATURE_COLUMNS, NEW_PATIENTS_PATH
 from utils import warn_if_out_of_range
@@ -100,3 +102,4 @@ def custom_prediction(log_reg, rf, scaler):
     except Exception as ex:
         print("Prediction skipped. Error:", ex)
         
+
