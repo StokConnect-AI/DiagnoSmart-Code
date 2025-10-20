@@ -1,3 +1,7 @@
+#This script is a well-structured pipeline for retraining two machine learning models, 
+#Logistic Regression and Random Forest Classifier to predict whether a patient has a high likelihood of depression based on other mental health indicators.
+
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -54,3 +58,4 @@ def retrain_models(original_path="1- mental-illnesses-prevalence.csv", new_path=
 
     print("✅ Models retrained with updated data")
     return log_reg, rf, scaler
+
